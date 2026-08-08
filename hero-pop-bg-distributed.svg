@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 500" fill="none">
+  <defs>
+    <path id="spark" d="m0 9 8-3 3-8 3 8 8 3-8 3-3 8-3-8-8-3Z" />
+    <path id="bolt" d="M10 0h16L17 17h11L5 43l7-19H0L10 0Z" />
+    <path id="flame" d="M20 0c11 12 14 20 14 28 0 12-9 21-21 21C6 49 0 42 0 32c0-7 4-14 12-21 0 7 4 11 7 13 2-7 2-13 1-24Z" />
+    <path id="leaf" d="M26 1C13 2 4 9 1 24c11 3 20 0 25-7 3-5 3-10 0-16Zm-2 7L7 29" />
+    <path id="eye" d="M0 16c9-13 23-13 32 0-9 13-23 13-32 0Zm16-7a7 7 0 1 0 0 14 7 7 0 0 0 0-14Z" />
+    <path id="flower" d="M14 0c4 0 5 6 5 9 3-2 9-4 11-1 2 4-3 7-6 9 3 1 9 4 7 8-2 3-8 1-11-1 0 4-1 10-5 10-4 0-5-6-5-10-3 2-9 4-11 1-2-4 3-7 6-8-3-2-8-5-6-9 2-3 8-1 11 1 0-3 1-9 5-9Z" />
+  </defs>
+
+  <!-- small confetti distributed across the full canvas -->
+  <g opacity=".86">
+    <circle cx="31" cy="43" r="6" fill="#f5c84b" />
+    <circle cx="92" cy="23" r="4" fill="#ff9ab8" />
+    <circle cx="170" cy="49" r="8" fill="#b9a0ef" />
+    <circle cx="248" cy="22" r="5" fill="#80c8ec" />
+    <circle cx="390" cy="31" r="7" fill="#f6bf35" />
+    <circle cx="472" cy="58" r="5" fill="#f59bb6" />
+    <circle cx="566" cy="21" r="7" fill="#b49ae9" />
+    <circle cx="668" cy="62" r="5" fill="#82c9e9" />
+    <circle cx="743" cy="28" r="6" fill="#f7bf37" />
+
+    <circle cx="50" cy="127" r="5" fill="#a9d9d0" />
+    <circle cx="129" cy="158" r="7" fill="#f4b33b" />
+    <circle cx="214" cy="118" r="4" fill="#ec86a7" />
+    <circle cx="304" cy="161" r="6" fill="#c2a9ed" />
+    <circle cx="415" cy="121" r="4" fill="#7ec3e2" />
+    <circle cx="508" cy="172" r="7" fill="#f6c83e" />
+    <circle cx="608" cy="134" r="4" fill="#ed86a7" />
+    <circle cx="727" cy="163" r="7" fill="#b9a0ef" />
+
+    <circle cx="28" cy="258" r="7" fill="#f6bf3e" />
+    <circle cx="108" cy="285" r="4" fill="#8cc9e7" />
+    <circle cx="194" cy="239" r="6" fill="#f39ab6" />
+    <circle cx="276" cy="308" r="5" fill="#c1a6eb" />
+    <circle cx="381" cy="251" r="7" fill="#e889a9" />
+    <circle cx="470" cy="292" r="4" fill="#f5c84a" />
+    <circle cx="575" cy="241" r="6" fill="#8ecbe8" />
+    <circle cx="706" cy="299" r="5" fill="#f2a2bb" />
+
+    <circle cx="64" cy="407" r="5" fill="#b9a0ef" />
+    <circle cx="158" cy="444" r="7" fill="#f7c640" />
+    <circle cx="255" cy="395" r="5" fill="#82c8e7" />
+    <circle cx="350" cy="454" r="6" fill="#f19ab4" />
+    <circle cx="438" cy="397" r="5" fill="#b39ae8" />
+    <circle cx="541" cy="447" r="7" fill="#f7c642" />
+    <circle cx="634" cy="390" r="5" fill="#8ccbe8" />
+    <circle cx="744" cy="451" r="6" fill="#f09ab6" />
+  </g>
+
+  <!-- larger signature motifs, intentionally offset from the edges -->
+  <g opacity=".78">
+    <use href="#spark" transform="translate(67 78) scale(.85)" fill="#f08aa7" />
+    <use href="#spark" transform="translate(265 95) scale(1.1)" fill="#74bde3" />
+    <use href="#spark" transform="translate(461 86) scale(.85)" fill="#f6c540" />
+    <use href="#spark" transform="translate(661 101) scale(.95)" fill="#b49be9" />
+    <use href="#spark" transform="translate(151 215) scale(.85)" fill="#75c7e3" />
+    <use href="#spark" transform="translate(353 195) scale(1.1)" fill="#f295b1" />
+    <use href="#spark" transform="translate(596 209) scale(.9)" fill="#f2bd3c" />
+    <use href="#spark" transform="translate(53 337) scale(1.05)" fill="#b49be9" />
+    <use href="#spark" transform="translate(236 348) scale(.85)" fill="#f18aa8" />
+    <use href="#spark" transform="translate(488 340) scale(1.05)" fill="#83c9e6" />
+    <use href="#spark" transform="translate(690 357) scale(.8)" fill="#f3c33e" />
+
+    <use href="#bolt" transform="translate(112 178) scale(.48) rotate(10 14 21)" fill="#f3b733" />
+    <use href="#bolt" transform="translate(520 107) scale(.45) rotate(-10 14 21)" fill="#f19ab5" />
+    <use href="#bolt" transform="translate(721 241) scale(.48) rotate(10 14 21)" fill="#8f76d6" />
+    <use href="#bolt" transform="translate(319 383) scale(.44) rotate(-7 14 21)" fill="#f5bf32" />
+
+    <use href="#flower" transform="translate(335 54) scale(.65)" fill="#f5b36f" />
+    <use href="#flower" transform="translate(610 280) scale(.54)" fill="#8bcda3" />
+    <use href="#flower" transform="translate(104 365) scale(.58)" fill="#f49ab3" />
+
+    <use href="#flame" transform="translate(193 283) scale(.52)" fill="#f28d9f" />
+    <use href="#flame" transform="translate(683 414) scale(.48)" fill="#f6c748" />
+
+    <use href="#leaf" transform="translate(417 207) scale(.65)" stroke="#f4c344" stroke-width="3" />
+    <use href="#leaf" transform="translate(32 453) scale(.48)" stroke="#88c8dc" stroke-width="3" />
+
+    <use href="#eye" transform="translate(372 423) scale(.8)" stroke="#6b4fc1" stroke-width="3" />
+  </g>
+
+  <g opacity=".55" fill="#fff">
+    <use href="#spark" transform="translate(28 188) scale(1.1)" />
+    <use href="#spark" transform="translate(735 85) scale(.95)" />
+    <use href="#spark" transform="translate(432 318) scale(.8)" />
+    <use href="#spark" transform="translate(188 477) scale(.85)" />
+  </g>
+</svg>
